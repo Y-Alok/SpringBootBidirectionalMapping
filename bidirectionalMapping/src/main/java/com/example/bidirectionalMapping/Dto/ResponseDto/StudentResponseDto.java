@@ -1,0 +1,22 @@
+package com.example.bidirectionalMapping.Dto.ResponseDto;
+
+import lombok.AccessLevel;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.experimental.FieldDefaults;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@FieldDefaults(level = AccessLevel.PRIVATE)
+public class StudentResponseDto {
+
+    String studentName;
+
+    String branchName;
+
+    String hodName;
+
+    String message;
+}
